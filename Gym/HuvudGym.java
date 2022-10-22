@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class HuvudGym {//huvudprogrammet för gymmet
+public class HuvudGym {//huvudprogrammet för Gymmet
     public HuvudGym() {//huvudprogrammets konstruktor
         try (var scan = new Scanner(new File("src\\textfil\\customers.txt"));
         ) {//inläsning av fil sker här inuti en try
